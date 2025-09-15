@@ -1,0 +1,45 @@
+# =========================
+# Python
+# =========================
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pyc
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# =========================
+# Virtual Environment
+# =========================
+.venv/
+venv/
+env/
+ENV/
+
+# =========================
+# IDE / Editor
+# =========================
+.idea/
+.vscode/
+*.iml
+
+# =========================
+# Logs / OS
+# =========================
+*.log
+*.pot
+*.mo
+*.swp
+.DS_Store
+Thumbs.db
+
+# =========================
+# Secrets / Config
+# =========================
+.env
+git rm -r --cached .idea
